@@ -1,0 +1,5 @@
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\BUS\bin\Debug\BUS.dll
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\BUS\bin\Debug\BUS.pdb
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\BUS\obj\Debug\BUS.dll
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\BUS\obj\Debug\BUS.pdb

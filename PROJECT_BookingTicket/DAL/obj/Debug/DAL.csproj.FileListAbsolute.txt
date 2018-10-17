@@ -1,0 +1,5 @@
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\DAL\bin\Debug\DAL.dll
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\DAL\bin\Debug\DAL.pdb
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\DAL\obj\Debug\DAL.dll
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\DAL\obj\Debug\DAL.pdb
