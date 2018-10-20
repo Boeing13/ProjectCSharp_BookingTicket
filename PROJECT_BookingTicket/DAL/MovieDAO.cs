@@ -1,20 +1,14 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
-using System.Configuration;
 using System.Data;
-using Entity;
-
 namespace DAL
 {
-    public class UserDAO
+    public class MovieDAO
     {
-        
-
         public DataTable GetTable(string query)
         {
             SqlConnection conn = DBContext.getConnection();
@@ -23,7 +17,7 @@ namespace DAL
             da.Fill(dt);
             return dt;
         }
-        
+
 
         public void NonExecuteQuery(string query)
         {
@@ -34,11 +28,5 @@ namespace DAL
             cmd.Dispose();
             cmd.Clone();
         }
-
-
-
-
-
-
     }
 }
