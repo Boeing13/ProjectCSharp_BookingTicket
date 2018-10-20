@@ -1,4 +1,4 @@
-﻿using PROJECT_BookingTicket;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +17,7 @@ namespace GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PrototypeUser());
+            Application.Run(new PrototypeAdmin2());
         }
     }
 }

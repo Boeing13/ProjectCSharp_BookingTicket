@@ -8,24 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PROJECT_BookingTicket
+namespace GUI
 {
     public partial class ManageMovie : UserControl
     {
-        private static ManageMovie _instance;
-
-        public static ManageMovie Instance
-        {
-            get
-            {
-                if (_instance == null)
-                {
-                    _instance = new ManageMovie();
-
-                }
-                return _instance;
-            }
-        }
+       
 
         public ManageMovie()
         {

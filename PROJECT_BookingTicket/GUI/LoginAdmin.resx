@@ -236,4 +236,14 @@
         gg==
 </value>
   </data>
+  <data name="btnExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAIAAADNH2CaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADtSURBVEhL1ZU9DoMwDIUZe6Peu8fKmgWIktaSVWOeHSdI
+        DC1iAON8z4l/WF6P5133cheIOH/HKqXknCny9/fiZ7L3jsXZY2sN1vMrcC0RWSQrILtef7IBnlg6Inpm
+        ZR2jfiW7+LDniQXLXFZgPFjbtjEL1FyBWivb932XgztY7prgvK0/skgQEjSvgSyb6R5LQu7u0bJSSlJf
+        bsgXWEHzgwbuMWgRgFIGByyu9Zk7yuO6rsExA13qS2uP696N0VXF3hYnW2gMdSNy+pFMMCd0KoJPPgta
+        Vw8ZmEXj+SUeEIWArs3VmYJwfX71P/QBozS0e4u2IQ4AAAAASUVORK5CYII=
+</value>
+  </data>
 </root>
