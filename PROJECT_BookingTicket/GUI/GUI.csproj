@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerDetail.Designer.cs">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,11 +73,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PrototypeAdmin2.cs">
+    <Compile Include="PrototypeAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PrototypeAdmin2.Designer.cs">
-      <DependentUpon>PrototypeAdmin2.cs</DependentUpon>
+    <Compile Include="PrototypeAdmin.Designer.cs">
+      <DependentUpon>PrototypeAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="PrototypeUser.cs">
       <SubType>Form</SubType>
@@ -85,6 +91,21 @@
     <Compile Include="LoginUser.Designer.cs">
       <DependentUpon>LoginUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuitingConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuitingConfirm.Designer.cs">
+      <DependentUpon>QuitingConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateMovie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateMovie.Designer.cs">
+      <DependentUpon>UpdateMovie.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomerDetail.resx">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginAdmin.resx">
       <DependentUpon>LoginAdmin.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,14 +124,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="PrototypeAdmin2.resx">
-      <DependentUpon>PrototypeAdmin2.cs</DependentUpon>
+    <EmbeddedResource Include="PrototypeAdmin.resx">
+      <DependentUpon>PrototypeAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrototypeUser.resx">
       <DependentUpon>PrototypeUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginUser.resx">
       <DependentUpon>LoginUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuitingConfirm.resx">
+      <DependentUpon>QuitingConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateMovie.resx">
+      <DependentUpon>UpdateMovie.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -129,10 +156,6 @@
     <ProjectReference Include="..\BUS\BUS.csproj">
       <Project>{d3a28e75-b7bc-4ca2-bdd3-b111668e48c1}</Project>
       <Name>BUS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Entity\Entity.csproj">
-      <Project>{60e00337-3d4a-4c82-a014-499157b5ab6f}</Project>
-      <Name>Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

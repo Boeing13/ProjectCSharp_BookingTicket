@@ -23,7 +23,7 @@ namespace GUI
             if(txtUsername.Text.Equals("admin") && txtPassword.Text.Equals("123456"))
             {
                
-                PrototypeAdmin2 pa = new PrototypeAdmin2();          
+                PrototypeAdmin pa = new PrototypeAdmin();          
                 this.Hide();
                 pa.Show();
             }

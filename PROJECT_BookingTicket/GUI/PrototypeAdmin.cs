@@ -19,7 +19,25 @@ namespace GUI
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            
+            QuitingConfirm confirm = new QuitingConfirm();
+            confirm.Show();
+            
+
+        }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = btnCustomer.Height;
+            SidePanel.Top = btnCustomer.Top;
+            manageUser1.BringToFront();
+        }
+
+        private void btnMovie_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = btnMovie.Height;
+            SidePanel.Top = btnMovie.Top;
+            manageMovie1.BringToFront();
         }
     }
 }

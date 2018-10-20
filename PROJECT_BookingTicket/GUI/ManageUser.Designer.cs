@@ -32,14 +32,26 @@
             this.btnDetailUser = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.userID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvUsers
             // 
+            this.dgvUsers.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dgvUsers.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvUsers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.userID,
+            this.fullName,
+            this.tel,
+            this.address});
             this.dgvUsers.Location = new System.Drawing.Point(20, 121);
             this.dgvUsers.Name = "dgvUsers";
+            this.dgvUsers.ReadOnly = true;
             this.dgvUsers.Size = new System.Drawing.Size(593, 345);
             this.dgvUsers.TabIndex = 2;
             // 
@@ -55,6 +67,7 @@
             this.btnDetailUser.TabIndex = 3;
             this.btnDetailUser.Text = "Detail ...";
             this.btnDetailUser.UseVisualStyleBackColor = false;
+            this.btnDetailUser.Click += new System.EventHandler(this.btnDetailUser_Click);
             // 
             // label3
             // 
@@ -78,6 +91,33 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "User Management";
             // 
+            // userID
+            // 
+            this.userID.DataPropertyName = "userID";
+            this.userID.HeaderText = "User ID";
+            this.userID.Name = "userID";
+            // 
+            // fullName
+            // 
+            this.fullName.DataPropertyName = "fullName";
+            this.fullName.HeaderText = "Full name";
+            this.fullName.Name = "fullName";
+            this.fullName.Width = 150;
+            // 
+            // tel
+            // 
+            this.tel.DataPropertyName = "tel";
+            this.tel.HeaderText = "Tel";
+            this.tel.Name = "tel";
+            this.tel.Width = 150;
+            // 
+            // address
+            // 
+            this.address.DataPropertyName = "address";
+            this.address.HeaderText = "Address";
+            this.address.Name = "address";
+            this.address.Width = 150;
+            // 
             // ManageUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -100,5 +140,9 @@
         private System.Windows.Forms.Button btnDetailUser;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn userID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fullName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn address;
     }
 }

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnCustomer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/4RDiRXhpZgAATU0AKgAAAAgABAE7AAIAAAAIAAAISodpAAQAAAAB
         AAAIUpydAAEAAAAQAAAQyuocAAcAAAgMAAAAPgAAAAAc6gAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -257,7 +257,7 @@
         i2kYEF49x2kg8g4xVOiigD//2Q==
 </value>
   </data>
-  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnMovie.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/4RDiRXhpZgAATU0AKgAAAAgABAE7AAIAAAAIAAAISodpAAQAAAAB
         AAAIUpydAAEAAAAQAAAQyuocAAcAAAgMAAAAPgAAAAAc6gAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -400,7 +400,7 @@
   <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAAecSURBVGhD7Zt5SFdZFMcty9ZpoY0W0SLMCqqpaAJbRYuy
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAecSURBVGhD7Zt5SFdZFMcty9ZpoY0W0SLMCqqpaAJbRYuy
         hUwxKglKwYliaKOaaCqhCArKPywtIiEKgiKKsPrDoFICLYpohXaDFssWKpu2mc/8nvO83vfe/d33e+9H
         4/C7f/2e3Xvu+d6z3HPPOUX9Febx/fv3x48fHz16dPny5ZMmTYqKiurYsePIkSMXLFhw5cqVly9ffvny
         xV8WovwlJ1F78+bN8ePHO3fuDBJGs8ajZcuWqamphYWFX79+9ZGNcEHau3dv+/btJQxOn2AbPXp0bW2t

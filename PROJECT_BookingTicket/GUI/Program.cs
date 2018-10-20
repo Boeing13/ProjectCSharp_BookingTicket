@@ -17,7 +17,7 @@ namespace GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PrototypeAdmin2());
+            Application.Run(new LoginAdmin());
         }
     }
 }
