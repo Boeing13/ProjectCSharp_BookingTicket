@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PROJECT_BookingTicket.Entity
+namespace Entity
 {
-    class Room
+    public class Room
     {
         public int RoomID { get; set; }
         public string Name { get; set; }
