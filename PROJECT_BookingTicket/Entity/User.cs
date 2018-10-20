@@ -8,13 +8,48 @@ namespace Entity
 {
     public class User
     {
-   
-        public int UserID { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public string FullName { get; set; }
-        public string Tel { get; set; }
-        public string Address { get; set; }
+        private int userID;
+
+        public int UserID {
+            get { return userID; }
+            set { userID = value; }
+        }
+
+        private string username;
+        public string Username
+        {
+            get { return username; }
+            set { username = value; }
+        }
+
+        private string password;
+        public string Password
+        {
+            get { return password; }
+            set { password = value; }
+        }
+
+        private string fullName;
+        public string FullName
+        {
+            get { return fullName; }
+            set { fullName = value; }
+        }
+
+        private string tel;
+        public string Tel
+        {
+            get { return tel; }
+            set { tel = value; }
+        }
+
+        private string address;
+        public string Address
+        {
+            get { return address; }
+            set { address = value; }
+        }
+        
 
         public User()
         {
@@ -24,12 +59,12 @@ namespace Entity
         public User(int userID, string username, string password, 
                 string fullName, string tel, string address)
         {
-            this.UserID = userID;
-            this.Username = username;
-            this.Password = password;
-            this.FullName = fullName;
-            this.Tel = tel;
-            this.Address = address;
+            this.userID = userID;
+            this.username = username;
+            this.password = password;
+            this.fullName = fullName;
+            this.tel = tel;
+            this.address = address;
         }
     }
 }
