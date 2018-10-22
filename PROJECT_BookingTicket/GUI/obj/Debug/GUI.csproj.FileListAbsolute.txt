@@ -21,3 +21,6 @@ E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\GUI\obj\Debug\GUI.CustomerDetail.resour
 E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\GUI\obj\Debug\GUI.UpdateMovie.resources
 E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\GUI\obj\Debug\GUI.QuitingConfirm.resources
 E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\GUI\obj\Debug\GUI.PrototypeAdmin.resources
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\GUI\obj\Debug\GUI.AddMovie.resources
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\GUI\obj\Debug\GUI.ManageSchedule.resources
+E:\SAMPLE  CODE\C#\PROJECT_BookingTicket\GUI\obj\Debug\GUI.AddSchedule.resources

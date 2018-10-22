@@ -47,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddMovie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMovie.Designer.cs">
+      <DependentUpon>AddMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSchedule.Designer.cs">
+      <DependentUpon>AddSchedule.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerDetail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +76,12 @@
     </Compile>
     <Compile Include="ManageMovie.Designer.cs">
       <DependentUpon>ManageMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManageSchedule.Designer.cs">
+      <DependentUpon>ManageSchedule.cs</DependentUpon>
     </Compile>
     <Compile Include="ManageUser.cs">
       <SubType>UserControl</SubType>
@@ -103,6 +121,12 @@
     <Compile Include="UpdateMovie.Designer.cs">
       <DependentUpon>UpdateMovie.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddMovie.resx">
+      <DependentUpon>AddMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSchedule.resx">
+      <DependentUpon>AddSchedule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomerDetail.resx">
       <DependentUpon>CustomerDetail.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageMovie.resx">
       <DependentUpon>ManageMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageSchedule.resx">
+      <DependentUpon>ManageSchedule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageUser.resx">
       <DependentUpon>ManageUser.cs</DependentUpon>

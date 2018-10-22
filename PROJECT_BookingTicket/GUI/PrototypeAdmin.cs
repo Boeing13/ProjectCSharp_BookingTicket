@@ -39,5 +39,12 @@ namespace GUI
             SidePanel.Top = btnMovie.Top;
             manageMovie1.BringToFront();
         }
+
+        private void btnSchedule_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = btnSchedule.Height;
+            SidePanel.Top = btnSchedule.Top;
+            manageSchedule1.BringToFront();
+        }
     }
 }

@@ -36,17 +36,18 @@
             this.movieID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.title = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.state = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMovies)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.label1.Location = new System.Drawing.Point(16, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(261, 30);
+            this.label1.Size = new System.Drawing.Size(289, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Movie Management";
             // 
@@ -89,6 +90,7 @@
             this.btnAddMovie.TabIndex = 10;
             this.btnAddMovie.Text = "Add new";
             this.btnAddMovie.UseVisualStyleBackColor = false;
+            this.btnAddMovie.Click += new System.EventHandler(this.btnAddMovie_Click);
             // 
             // dgvMovies
             // 
@@ -132,10 +134,22 @@
             this.state.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.state.Width = 150;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.label3.Location = new System.Drawing.Point(16, 63);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(173, 25);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "List of all Movies";
+            // 
             // ManageMovie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnDeleteMovie);
             this.Controls.Add(this.btnUpdateMovie);
             this.Controls.Add(this.btnAddMovie);
@@ -160,5 +174,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn movieID;
         private System.Windows.Forms.DataGridViewTextBoxColumn title;
         private System.Windows.Forms.DataGridViewCheckBoxColumn state;
+        private System.Windows.Forms.Label label3;
     }
 }

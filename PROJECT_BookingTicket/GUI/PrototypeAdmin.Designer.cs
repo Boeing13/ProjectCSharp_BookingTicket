@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PrototypeAdmin));
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnSchedule = new System.Windows.Forms.Button();
             this.SidePanel = new System.Windows.Forms.Panel();
             this.btnCustomer = new System.Windows.Forms.Button();
             this.btnMovie = new System.Windows.Forms.Button();
@@ -43,8 +44,9 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.manageUser1 = new GUI.ManageUser();
             this.manageMovie1 = new GUI.ManageMovie();
+            this.manageSchedule1 = new GUI.ManageSchedule();
+            this.manageUser1 = new GUI.ManageUser();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -62,6 +64,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.btnSchedule);
             this.panel1.Controls.Add(this.SidePanel);
             this.panel1.Controls.Add(this.btnCustomer);
             this.panel1.Controls.Add(this.btnMovie);
@@ -70,6 +73,23 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(183, 627);
             this.panel1.TabIndex = 11;
+            // 
+            // btnSchedule
+            // 
+            this.btnSchedule.FlatAppearance.BorderSize = 0;
+            this.btnSchedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSchedule.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSchedule.ForeColor = System.Drawing.Color.White;
+            this.btnSchedule.Image = ((System.Drawing.Image)(resources.GetObject("btnSchedule.Image")));
+            this.btnSchedule.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSchedule.Location = new System.Drawing.Point(14, 297);
+            this.btnSchedule.Name = "btnSchedule";
+            this.btnSchedule.Size = new System.Drawing.Size(169, 67);
+            this.btnSchedule.TabIndex = 4;
+            this.btnSchedule.Text = "Schedule";
+            this.btnSchedule.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSchedule.UseVisualStyleBackColor = true;
+            this.btnSchedule.Click += new System.EventHandler(this.btnSchedule_Click);
             // 
             // SidePanel
             // 
@@ -234,26 +254,34 @@
             this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button8.UseVisualStyleBackColor = true;
             // 
+            // manageMovie1
+            // 
+            this.manageMovie1.Location = new System.Drawing.Point(215, 126);
+            this.manageMovie1.Name = "manageMovie1";
+            this.manageMovie1.Size = new System.Drawing.Size(798, 501);
+            this.manageMovie1.TabIndex = 20;
+            // 
+            // manageSchedule1
+            // 
+            this.manageSchedule1.Location = new System.Drawing.Point(192, 141);
+            this.manageSchedule1.Name = "manageSchedule1";
+            this.manageSchedule1.Size = new System.Drawing.Size(798, 474);
+            this.manageSchedule1.TabIndex = 21;
+            // 
             // manageUser1
             // 
             this.manageUser1.Location = new System.Drawing.Point(215, 126);
             this.manageUser1.Name = "manageUser1";
             this.manageUser1.Size = new System.Drawing.Size(766, 489);
-            this.manageUser1.TabIndex = 21;
+            this.manageUser1.TabIndex = 22;
             // 
-            // manageMovie1
-            // 
-            this.manageMovie1.Location = new System.Drawing.Point(204, 126);
-            this.manageMovie1.Name = "manageMovie1";
-            this.manageMovie1.Size = new System.Drawing.Size(798, 501);
-            this.manageMovie1.TabIndex = 20;
-            // 
-            // PrototypeAdmin2
+            // PrototypeAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1002, 627);
             this.Controls.Add(this.manageUser1);
+            this.Controls.Add(this.manageSchedule1);
             this.Controls.Add(this.manageMovie1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -265,7 +293,7 @@
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "PrototypeAdmin2";
+            this.Name = "PrototypeAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PrototypeAdmin2";
             this.panel1.ResumeLayout(false);
@@ -293,6 +321,8 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
         private ManageMovie manageMovie1;
+        private System.Windows.Forms.Button btnSchedule;
+        private ManageSchedule manageSchedule1;
         private ManageUser manageUser1;
     }
 }

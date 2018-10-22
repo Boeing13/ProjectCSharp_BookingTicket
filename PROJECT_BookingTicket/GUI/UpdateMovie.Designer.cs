@@ -38,6 +38,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbState = new System.Windows.Forms.ComboBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,7 +73,7 @@
             // 
             this.txtID.BackColor = System.Drawing.Color.White;
             this.txtID.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtID.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtID.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtID.Location = new System.Drawing.Point(174, 101);
             this.txtID.Name = "txtID";
             this.txtID.ReadOnly = true;
@@ -81,7 +84,7 @@
             // 
             this.txtTitle.BackColor = System.Drawing.Color.White;
             this.txtTitle.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTitle.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTitle.Location = new System.Drawing.Point(174, 176);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(251, 24);
@@ -90,7 +93,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(468, 100);
+            this.pictureBox1.Location = new System.Drawing.Point(468, 60);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(256, 256);
             this.pictureBox1.TabIndex = 26;
@@ -131,24 +134,53 @@
             // 
             // cmbState
             // 
+            this.cmbState.BackColor = System.Drawing.SystemColors.MenuBar;
             this.cmbState.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbState.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbState.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbState.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbState.FormattingEnabled = true;
-            this.cmbState.ItemHeight = 21;
+            this.cmbState.ItemHeight = 23;
             this.cmbState.Items.AddRange(new object[] {
             "On showing",
             "Finished"});
             this.cmbState.Location = new System.Drawing.Point(174, 257);
             this.cmbState.Name = "cmbState";
-            this.cmbState.Size = new System.Drawing.Size(251, 29);
+            this.cmbState.Size = new System.Drawing.Size(251, 31);
             this.cmbState.TabIndex = 33;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Maroon;
+            this.panel1.Location = new System.Drawing.Point(29, 131);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(393, 2);
+            this.panel1.TabIndex = 53;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Maroon;
+            this.panel2.Location = new System.Drawing.Point(32, 206);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(393, 2);
+            this.panel2.TabIndex = 54;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Maroon;
+            this.panel3.Location = new System.Drawing.Point(32, 292);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(393, 2);
+            this.panel3.TabIndex = 55;
             // 
             // UpdateMovie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(745, 455);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.cmbState);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnSaveChange);
@@ -179,5 +211,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbState;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }

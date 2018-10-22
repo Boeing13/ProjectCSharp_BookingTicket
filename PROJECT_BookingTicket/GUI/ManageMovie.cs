@@ -46,5 +46,11 @@ namespace GUI
                 detail.ShowDialog();
             }
         }
+
+        private void btnAddMovie_Click(object sender, EventArgs e)
+        {
+            AddMovie add = new AddMovie();
+            add.Show();
+        }
     }
 }

@@ -20,7 +20,7 @@ namespace GUI
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtUsername.Text.Equals("admin") && txtPassword.Text.Equals("123456"))
+            if(txtUsername.Text.Equals("sa") && txtPassword.Text.Equals("123456"))
             {
                
                 PrototypeAdmin pa = new PrototypeAdmin();          
