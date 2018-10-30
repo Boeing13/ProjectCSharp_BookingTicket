@@ -54,6 +54,7 @@
             this.btnDeleteSchedule.TabIndex = 17;
             this.btnDeleteSchedule.Text = "Delete";
             this.btnDeleteSchedule.UseVisualStyleBackColor = false;
+            this.btnDeleteSchedule.Click += new System.EventHandler(this.btnDeleteSchedule_Click);
             // 
             // btnUpdateSchedule
             // 
@@ -67,6 +68,7 @@
             this.btnUpdateSchedule.TabIndex = 16;
             this.btnUpdateSchedule.Text = "Update";
             this.btnUpdateSchedule.UseVisualStyleBackColor = false;
+            this.btnUpdateSchedule.Click += new System.EventHandler(this.btnUpdateSchedule_Click);
             // 
             // btnAddSchedule
             // 
@@ -85,7 +87,7 @@
             // dgvSchedule
             // 
             this.dgvSchedule.AllowUserToAddRows = false;
-            this.dgvSchedule.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvSchedule.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgvSchedule.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvSchedule.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSchedule.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -99,6 +101,7 @@
             this.dgvSchedule.ReadOnly = true;
             this.dgvSchedule.Size = new System.Drawing.Size(567, 355);
             this.dgvSchedule.TabIndex = 14;
+            this.dgvSchedule.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dgvSchedule_RowsAdded);
             // 
             // name
             // 
@@ -185,7 +188,6 @@
         private System.Windows.Forms.Button btnDeleteSchedule;
         private System.Windows.Forms.Button btnUpdateSchedule;
         private System.Windows.Forms.Button btnAddSchedule;
-        private System.Windows.Forms.DataGridView dgvSchedule;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn time;
@@ -193,5 +195,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn date;
         private System.Windows.Forms.DataGridViewTextBoxColumn leftSeat;
         private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.DataGridView dgvSchedule;
     }
 }

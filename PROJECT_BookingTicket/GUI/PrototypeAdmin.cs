@@ -19,10 +19,10 @@ namespace GUI
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            
+
             QuitingConfirm confirm = new QuitingConfirm();
-            confirm.Show();
-            
+            confirm.ShowDialog();
+
 
         }
 

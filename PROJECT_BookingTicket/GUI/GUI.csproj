@@ -65,6 +65,18 @@
     <Compile Include="CustomerDetail.Designer.cs">
       <DependentUpon>CustomerDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="DeleteSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteSchedule.Designer.cs">
+      <DependentUpon>DeleteSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FailNotify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FailNotify.Designer.cs">
+      <DependentUpon>FailNotify.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,11 +127,23 @@
     <Compile Include="QuitingConfirm.Designer.cs">
       <DependentUpon>QuitingConfirm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SuccessNotify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuccessNotify.Designer.cs">
+      <DependentUpon>SuccessNotify.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateMovie.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UpdateMovie.Designer.cs">
       <DependentUpon>UpdateMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSchedule.Designer.cs">
+      <DependentUpon>UpdateSchedule.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddMovie.resx">
       <DependentUpon>AddMovie.cs</DependentUpon>
@@ -129,6 +153,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerDetail.resx">
       <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteSchedule.resx">
+      <DependentUpon>DeleteSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FailNotify.resx">
+      <DependentUpon>FailNotify.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginAdmin.resx">
       <DependentUpon>LoginAdmin.cs</DependentUpon>
@@ -163,8 +193,14 @@
     <EmbeddedResource Include="QuitingConfirm.resx">
       <DependentUpon>QuitingConfirm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SuccessNotify.resx">
+      <DependentUpon>SuccessNotify.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UpdateMovie.resx">
       <DependentUpon>UpdateMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSchedule.resx">
+      <DependentUpon>UpdateSchedule.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -183,6 +219,10 @@
     <ProjectReference Include="..\BUS\BUS.csproj">
       <Project>{d3a28e75-b7bc-4ca2-bdd3-b111668e48c1}</Project>
       <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{60e00337-3d4a-4c82-a014-499157b5ab6f}</Project>
+      <Name>Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

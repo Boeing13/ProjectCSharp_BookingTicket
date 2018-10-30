@@ -41,7 +41,7 @@ namespace GUI
                 string id = dgvMovies.Rows[rowindex].Cells[0].Value.ToString();
                 string title = dgvMovies.Rows[rowindex].Cells[1].Value.ToString();
                 string state = dgvMovies.Rows[rowindex].Cells[2].Value.ToString();
-               
+                
                 UpdateMovie detail = new UpdateMovie(id, title, state);
                 detail.ShowDialog();
             }

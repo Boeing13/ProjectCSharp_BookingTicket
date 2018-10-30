@@ -95,7 +95,7 @@
             // dgvMovies
             // 
             this.dgvMovies.AllowUserToAddRows = false;
-            this.dgvMovies.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvMovies.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgvMovies.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvMovies.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMovies.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {

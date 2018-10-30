@@ -29,7 +29,7 @@ namespace GUI
             try
             {
                 DataTable dt = new DataTable();
-                dt = ub.SelectAll();
+                dt = ub.GetAllUser();
                 dgvUsers.DataSource = dt;
             }
             catch (Exception)
