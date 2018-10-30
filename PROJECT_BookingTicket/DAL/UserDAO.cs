@@ -13,32 +13,11 @@ namespace DAL
 {
     public class UserDAO
     {
-        
-
-        public DataTable GetTable(string query)
+        public DataTable GetAllUser()
         {
-            SqlConnection conn = DBContext.getConnection();
-            SqlDataAdapter da = new SqlDataAdapter(query, conn);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
+            string query = "select u.userID, u.fullName, u.tel, u.[address] from [User] u";
+            return SqlHelper.ExecuteDataTable(query, CommandType.Text, null);
         }
-        
-
-        public void NonExecuteQuery(string query)
-        {
-            SqlConnection conn = new SqlConnection();
-            conn.Open();
-            SqlCommand cmd = new SqlCommand(query, conn);
-            cmd.ExecuteNonQuery();
-            cmd.Dispose();
-            cmd.Clone();
-        }
-
-
-
-
-
 
     }
 }
